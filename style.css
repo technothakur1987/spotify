@@ -1,0 +1,485 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    font-size: 10px;
+}
+
+.header{
+    background-color: black;
+    height: 8rem;
+    display: flex;
+    flex-direction: row;
+    
+}
+.logo{
+    flex-basis: 40%;
+    display: flex;
+    align-items: center;
+    
+}
+.logoimage{
+    height:4rem;
+    margin: 3rem;
+}
+.logoimage:hover{
+    cursor: pointer;
+}
+.navbar{
+    flex-basis: 60%;
+    color: white;
+    
+
+
+    
+    
+   
+}
+.navbar ul{
+    list-style-type: none;
+   height: 8.0rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    /*border: 2px solid red;*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around   ;
+    
+    
+}
+.navbar ul li{
+   /* border: 1px solid blue;*/
+    padding: 1rem 1rem;
+    
+    
+}
+
+#anchortag{
+    color: white;
+    text-decoration: none;
+}
+#anchortag:hover{
+    color: springgreen;
+    cursor: pointer;
+
+}
+
+
+/*body*/
+
+.body{
+    background-color: royalblue;
+    height: 70rem;
+    color: springgreen;
+}
+.b1{
+    height: 5rem;
+   /* background-color: springgreen;*/
+}
+.b2{
+    height: 40rem;
+    text-align: center;
+    
+   
+}
+.b2 h1{
+    font-size: 11rem;
+    margin-top: 5rem;
+}
+.b2 h3{
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+.btn{
+    color:royalblue ;
+    background-color: springgreen;
+    border-radius: 15px;
+    padding: 1.5rem 3rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    border: none;
+    height: 5rem;
+    width: 20.5rem;
+}
+.btn:hover{
+    height: 5.1rem;
+    width: 21rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    
+}
+.b3{
+    height: 20rem;
+   background-color: royalblue;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+.b31{
+    height: 20rem;
+    width: 20rem;
+    background-color: springgreen;
+    /*border: 1px solid springgreen;*/
+    border-radius: 0 50rem 0 0;
+
+}
+.b32{
+    height: 9rem;
+    width: 9rem;
+    background-color: springgreen;
+    border-radius: 50rem 0 0 0;
+    margin-top: 12rem;
+}
+
+
+
+/*footer*/
+
+.footer{
+    background-color: black;
+    height: 53rem;
+    display: flex;
+    flex-direction: column;
+}
+.f1{
+    flex-basis: 80%;
+    display: flex;
+    flex-direction: row;
+   
+}
+.f11{
+    flex-basis: 70%;
+   /* background-color: blueviolet;*/
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding-top: 2.5rem;
+}
+.f111{
+    flex-basis: 25%;
+
+
+   }
+   
+.f112{flex-basis: 25%;
+    }
+    .f112 ul{
+        margin-top: 4.9rem;
+        list-style: none;
+    }
+    .f112 ul h3{
+        font-weight: bolder;
+        opacity: 0.5;
+        
+    }
+    .f112 ul li{
+        margin-top: 2rem;
+        font-size: 1.9rem;
+    }
+    
+    .f112 ul li:hover{
+        color:springgreen;
+        cursor: pointer;
+    }
+.f113{flex-basis: 25%;
+    }
+    .f113 ul{
+        margin-top: 4.9rem;
+        list-style: none;
+    }
+    .f113 ul h3{
+        font-weight: bolder;
+        opacity: 0.5;
+        
+    }
+    .f113 ul li{
+        margin-top: 2rem;
+        font-size: 1.9rem;
+    }
+    .f113 ul li:hover{
+        color:springgreen;
+        cursor: pointer;
+    }
+
+.f114{flex-basis: 25%;
+    
+}
+.f114 ul{
+    margin-top: 4.9rem;
+    list-style: none;
+}
+.f114 ul h3{
+    font-weight: bolder;
+    opacity: 0.5;
+    
+}
+.f114 ul li{
+    margin-top: 2rem;
+    font-size: 1.9rem;
+}
+.f114 ul li:hover{
+    color:springgreen;
+    cursor: pointer;
+}
+.f12{
+    flex-basis: 30%;
+    background-color: black;
+    padding-top: 2.5rem;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+.instadiv{
+    height: 5rem;
+    width: 5rem;
+    background-color: grey;
+    margin-top:5rem ;
+    margin-right: 2rem;
+    border-radius: 2.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.svgimage{
+    width:2.5rem;
+    height:2.5rem;
+    fill:white;
+}
+.svgimage:hover{
+    fill:springgreen;
+    cursor: pointer;
+}
+
+.f2{
+    flex-basis: 20%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    
+}
+.f21{
+    flex-basis: 70%;
+    background-color: black;
+    padding-left: 1.2rem;
+    
+    
+
+}
+.f21 ul{
+    color: gray;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: row;
+}
+.f21 ul li{
+    padding:2rem 1.5rem;
+    list-style-type: none;
+}
+.f21 ul li:hover{
+    color:springgreen;
+    cursor: pointer;
+}
+.f22{
+    flex-basis: 30%;
+    background-color: black;
+    color: white;
+    
+    text-align: right;
+    padding-right: 2.5rem;
+}
+.f22 h2{
+    margin-top: 1rem;
+    color: gray;
+    font-size: 1.3rem;
+}
+.f22 h2:hover{
+    margin-top: 1rem;
+    color: gray;
+    font-size: 1.3rem;
+
+}
+
+
+/*PREMIUM.HTML*/
+
+.yellowpage{
+    height: 70rem;
+    background-color:#CDF564;
+    text-align: center;
+
+}
+.yellowpage h1{
+    font-size: 4.5rem;
+    padding-top: 6rem;
+   
+}
+.yellowpage h2{
+
+    font-size: 2.8rem;
+    padding-top: 3rem;
+    font-weight: lighter;
+   
+}
+
+.prebtn1{
+    background-color: black;
+   color: #CDF564;
+   margin-top: 3rem;
+   height:5rem;
+   margin-right: 1rem;
+   border: 2px solid black;
+   border-radius: 2.5rem;
+   padding-left: 2rem;
+   padding-right: 2rem;
+   font-weight: bolder;
+   font-size: 1.4rem;
+}
+.prebtn1:hover{
+    height:5.2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+
+.prebtn2{
+    background-color: #CDF564;
+    color: black;
+    margin-top: 3rem;
+    height:5rem;
+    margin-left: 1rem;
+    border: 2px solid black;
+    border-radius: 2.5rem;
+    padding-left: 2rem;
+   padding-right: 2rem;
+   font-weight: bolder;
+   font-size: 1.4rem;
+}
+.prebtn2:hover{
+    height: 5.2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+.prep{
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.yellowpage p {
+    font-size: 1.4rem;
+    text-align: center;
+}
+.preimage{
+    height: 35rem;
+    width: 35rem;
+    margin-top: 2rem;
+}
+
+
+/*purple*/
+.purple{
+    height: 50rem;
+    background-color: rgb(224, 170, 235);
+    color: black;
+    text-align: center;
+}
+.purple h1{
+    font-size: 4.5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem ;
+   
+}
+.purple h3{
+    font-size: 2.5rem ;
+    margin: 1rem 0rem ;
+    font-weight: lighter;
+}
+.Purpbtn{
+    background-color: black;
+    color: white;
+    height: 5rem;
+    width: 15rem;
+    font-size: 1.5rem;
+   
+    border-radius: 2.5rem;
+    font-weight: bolder;
+    margin: 2rem 0rem;
+}
+.Purpbtn:hover{
+    cursor: pointer;
+}
+.purple p {
+    font-size: 1.3rem;
+    color: black;
+    margin-top: 0.5rem;
+}
+
+
+.prewhite{
+    height: 250rem;
+    
+}
+.prewhite h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 5rem;
+    font-weight: bolder;
+}
+ 
+.prewhite p{
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top:0.9rem;
+}
+.prepaymentlogos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0rem;
+}
+.prepaymentlogos img{
+    height: 3.5rem;
+    width: 3.5rem;
+    margin-left: 0.5rem;
+}
+    
+.Individual,.Mini,.Duo,.Family{
+    height:50rem ;
+    width: 42rem;
+    margin: 2rem auto;
+    background-color: aliceblue;
+    border: 1px solid black ;
+    padding: 0 2rem;
+    
+} 
+.h1Blue{
+    border: 1px solid blue;
+    background-color: blue;
+    height: 3rem;
+    width: 25rem;
+    font-size: 1.8rem;
+    color:white;
+    font-weight: bolder;
+    
+
+}   
+.h1white{
+    border: 1px solid blue ;
+    color: blue;
+}
+    
+
+
+
+
+
+    
+
+
